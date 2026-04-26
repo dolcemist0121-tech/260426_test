@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/tack/Desktop/**)",
+      "Bash(mkdir -p LT会)",
+      "Bash(mv 260228_LT会 260321_LT会 260412_LT会 LT会/)",
+      "Bash(mkdir -p 木曜会)",
+      "Bash(mv \"260215_Genspark講座_木曜会\" \"260222_manus講座_木曜会\" 260412_木曜会 木曜会/)",
+      "Bash(pip3 install *)",
+      "Bash(python3 /tmp/create_cards.py)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/takpfive/claude-code-course-materials-2026-04/main/Skills/pptx_michikusa/SKILL.md)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git push *)"
+    ]
+  }
+}
